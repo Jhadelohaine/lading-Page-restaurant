@@ -46,3 +46,10 @@ $(window).on('scroll', function(){
     duration: 1000,
     distance: '20%'
   })
+
+  scrollReveal().reveal('.feedback', {
+    origin: 'right',
+    duration: 1000,
+    distance: '20%'
+  })
+  
